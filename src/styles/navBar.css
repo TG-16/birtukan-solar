@@ -90,14 +90,14 @@
 @media (max-width:320px) {
     .desktopNav ul
     {
-        display: none;
+        font-size: xx-small;
     }
 
-    .humberger
+    /* .humberger
     {
         display: block;
         margin-right: 7%;
-    }
+    } */
 
     .desktopNav
     {

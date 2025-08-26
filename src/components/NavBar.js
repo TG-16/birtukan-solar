@@ -4,12 +4,7 @@ import { useNavigate } from "react-router-dom";
 const NavBar = () =>{
 
     const navigator = useNavigate();
-    
-    {
-        //make the navigation smooth 
-        //means when navigating in the middle of the page return to the top
-        //not in the middle of the next page
-    }
+
 
     return(
         <div className="navBarContainer">

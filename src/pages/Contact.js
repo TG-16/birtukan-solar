@@ -1,6 +1,6 @@
 import NavBar from "../components/NavBar";
 import Intrance from "../components/Intrance";
-import ProductCard from "../components/ProductCard";
+// import ProductCard from "../components/ProductCard";
 import Footer from "../components/Footer";
 import "../styles/contact.css"
 

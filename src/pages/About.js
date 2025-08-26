@@ -49,7 +49,7 @@ const About = () => {
 
             <div className="founder">
                 <h2>Meet the Founder</h2>
-                <img src="../images/testmonial.png" alt="Gebeyaw Mekonnen" />
+                <img src="../images/founder.jpg" alt="Gebeyaw Mekonnen" />
                 <p>
                     Ato Gebeyaw Mekonnen is the driving force behind Birtukan Solar Importer. With more than 21 years of technical expertise in electronics maintenance and solar home system installation, he brings deep knowledge and hands-on experience to the company. His leadership, vision, and technical skills have been central to building a strong and reliable solar business that continues to serve communities across Ethiopia with affordable and sustainable energy solutions.
                 </p>
