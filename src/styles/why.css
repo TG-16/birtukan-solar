@@ -1,0 +1,50 @@
+
+.whyContainer
+{
+    /* border: solid; */
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 0%;
+}
+
+.whyContainer div
+{
+    width: 44%;
+    display: flex;
+    /* border: solid red; */
+    align-items: center;
+}
+
+.whyContainer img
+{
+    width: 10%;
+    aspect-ratio: 1/1;
+}
+
+.whyContainer h3
+{
+    /* border: solid; */
+    margin-left: 4%;
+    margin-right: 20%;
+}
+
+@media (max-width:320px)
+{
+    .whyContainer
+    {
+        flex-direction: column;
+        margin: 3%;
+    }
+
+    .whyContainer div
+    {
+        width: 100%;
+    }
+
+    .whyContainer h3
+    {
+        margin-left: 7%;
+        margin-right: 10%;
+        font-size:small
+    }
+}

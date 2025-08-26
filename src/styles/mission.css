@@ -1,0 +1,13 @@
+
+.missionCardContainer p
+{
+    color: var(--secondary);
+    font-size: large;
+    margin-bottom: 6%;
+    width: 90%;
+}
+
+.missionCardContainer
+{
+    margin-bottom: 4%;
+}

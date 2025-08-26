@@ -1,0 +1,112 @@
+
+.navBarContainer
+{
+    display: flex;
+    width: 111%;
+    height: 12vh;
+    /* border: solid red; */
+    position: sticky;
+    top: 0%;
+    background-color: var(--white-background);
+    box-shadow: var(--standard-shadow);
+    z-index: 999;
+    align-items: center;
+}
+
+.desktopNav h2
+{
+    color: var(--dark-text-color);
+}
+
+.desktopNav
+{
+    display: flex;
+    width: 100%;
+    padding: 0% 3%;
+    /* border: solid ; */
+    justify-content: space-between;
+    /* opacity: 50%; 
+       change the opacity when scrolled from 100 to 50 and return it when hovered 
+    */
+}
+
+.desktopNav ul
+{
+    /* border: solid; */
+    padding: 0%;
+    list-style: none;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.desktopNav li
+{
+   font-weight: 500;
+   opacity: 80%;
+   color: var(--dark-text-color);
+   /* border: solid; */
+   position: relative;
+}
+
+.desktopNav li::after
+{
+  content: "";
+  position: absolute;
+  height: 7%;
+  bottom:0%;
+  left: 0%;
+  width: 0%;
+  border: none;
+  border-radius: 7px;
+  background-color: var(--secondary);
+  z-index: -1;
+  transition: 300ms ease-in-out;
+}
+
+.desktopNav li:hover::after
+{
+  width: 100%;
+  transition: 200ms ease-in-out;
+}
+
+.desktopNav li:hover
+{
+  cursor: pointer;
+  color: var(--secondary);
+}
+
+.humberger
+{
+    display: none;
+}
+
+.darkModeButton
+{
+    opacity: 0%;
+}
+
+@media (max-width:320px) {
+    .desktopNav ul
+    {
+        display: none;
+    }
+
+    .humberger
+    {
+        display: block;
+        margin-right: 7%;
+    }
+
+    .desktopNav
+    {
+        justify-content:flex-start;
+    }
+
+    .darkModeButton
+    {
+        margin-left: 5%;
+    }
+
+}

@@ -1,0 +1,55 @@
+
+.productCardContainer
+{
+    /* border: solid; */
+    width: 26%;
+    border-radius: 10px;
+    height: 65vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    transition: all 0.4s;
+    margin: 2% 0%;
+}
+
+.productCardContainer img
+{
+    /* border: solid red; */
+    width: 80%;
+    height: 50%;
+}
+
+.productCardContainer h3
+{
+    margin-top: 3%;
+    margin-bottom: 0%;
+}
+
+.productCardContainer p
+{
+    text-align: center;
+    width: 90%;
+    margin-bottom: 14%;
+}
+
+.productCardContainer button
+{
+    width: 45%;
+    height: 8%;
+}
+
+.productCardContainer:hover
+{
+    background-color:var(--white-background);
+    box-shadow: var(--standard-shadow);
+    transition: var(--standard-transition);
+}
+
+@media (max-width:320px)
+{
+    .productCardContainer
+    {
+        width: 90%;
+        margin: 6% 0%;
+    }
+}

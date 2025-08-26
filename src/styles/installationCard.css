@@ -1,0 +1,94 @@
+
+.installationContainer
+{
+    display: flex;
+    flex-direction: column;
+    /* border: solid; */
+    align-items: center;
+    margin: 5% 0%;
+}
+
+.installationImgContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 111%;
+    /* border: solid red; */
+    position: relative;
+}
+
+.installationContainer p
+{
+    width: 65%;
+    line-height: 2;
+    text-align: center;
+}
+
+.installationContainer h3
+{
+    width: 50%;
+    text-align: center;
+}
+
+.installationImgContainer div
+{
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    position:absolute;
+    bottom: 0%;
+    height: 100%;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, 0.183);
+    opacity: 0%;
+    transition: var(--standard-transition);
+}
+
+.installationImgContainer div:hover
+{
+    opacity: 100%;
+    transition: var(--standard-transition);
+}
+
+.installationImgContainer div p
+{
+    text-align: left;
+    padding-left: 5%;
+    color: var(--white-text-color);
+    font-weight: bold;
+}
+
+.installationImgContainer img
+{
+    width: 70%;
+}
+
+@media (max-width:320px) {
+    .installationContainer p
+    {
+        width: 100%;
+    }
+
+    .installationContainer h3
+    {
+        width: 110%;
+    }
+
+    .installationImgContainer img
+    {
+        width: 100%;
+    }
+
+    .installationImgContainer div 
+    {
+        width: 100%;
+    }
+
+    .installationImgContainer div p
+    {
+        font-size: smaller;
+        margin:0%
+    }
+}

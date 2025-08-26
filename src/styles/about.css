@@ -1,0 +1,260 @@
+
+.ourStoryContainer
+{
+    width: 100%;
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.ourStory
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ourStory p
+{
+    width: 45%;
+    line-height: 2;
+    text-align: center;
+}
+
+.ourStory img
+{
+    width: 45%;
+}
+
+.missionContainer
+{
+    background-color: var(--accent);
+    width: 111%;
+}
+
+.missionContainer h2
+{
+    margin-bottom: -5%;
+}
+
+.founder
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.founder img 
+{
+    width: 30%;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+}
+
+.founder p
+{
+    width: 45%;
+    line-height: 2;
+    text-align: center;
+}
+
+.teamContainer 
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* border: solid; */
+    margin-top: 5%;
+}
+
+.team
+{
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+}
+
+.team img 
+{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.team p 
+{
+    position: relative;
+    width: 20%;
+}
+
+#headOfNetworking::after
+{
+    content: "Head of Networking";
+}
+
+#headOfSells::after
+{
+    content: "Head of Sells";
+}
+
+#headOfPromotion::after
+{
+    content: "Head of Promotion";
+}
+
+.team p::after
+{
+    content: "";
+    background-color: var(--secondary);
+    color: var(--dark-text-color);
+    width: 20%;
+    position: absolute;
+    top: 0%;
+    left:0%;
+    border-radius: 10px;
+    height: 98%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    display: none;
+    opacity: 60%;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.team p:hover::after
+{
+    display: flex;
+}
+
+.headOfNetworking::after
+{
+    content: "Head of Networking";
+}
+
+.whyAbout
+{
+    display: flex;
+    flex-direction: column;
+    /* border: solid; */
+    width: 75%;
+    margin: 5% 0%;
+}
+
+.top, .bottom, .middle
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0%;
+}
+
+.middle h3 , .top h3, .bottom h3
+{
+    width: 20%;
+    text-align: center;
+}
+
+.top h3:first-child, .bottom h3:last-child
+{
+    rotate: -30deg;
+}
+
+.top h3:last-child, .bottom h3:first-child
+{
+    rotate: 30deg;
+}
+
+.middle h3:first-child
+{
+    rotate: -90deg;
+}
+
+.middle h3:last-child
+{
+    rotate: 90deg;
+}
+
+.middle img
+{
+    width: 40%;
+    border-radius: 50%;
+}
+
+#contactUsAbout
+{
+    height: 5vh;
+    width: 10%;
+}
+
+/* last paragraph should be bold and secondary color*/
+
+@media (max-width:320px) {
+    .ourStory
+    {
+        flex-direction: column;
+    }
+
+    .ourStory p, .ourStory img 
+    {
+        width: 100%;
+    }
+
+    .founder img 
+    {
+        width: 90%;
+    }
+
+    .founder p
+    {
+        width: 100%;
+    }
+
+    .team
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team p 
+    {
+        width: 90%;
+    }
+
+    .whyAbout
+    {
+        width: 100%;
+    }
+
+    .top, .bottom, .middle
+    {
+        flex-direction: column;
+    }
+
+    .middle h3 , .top h3, .bottom h3
+    {
+        width: 60%;
+    }
+
+    .top h3:first-child, .bottom h3:last-child,
+    .top h3:last-child, .bottom h3:first-child,
+    .middle h3:first-child, .middle h3:last-child
+    {
+        rotate: 0deg;
+    }
+
+    .middle img
+    {
+        width: 60%;
+    }
+
+    #contactUsAbout
+    {
+        height: 6vh;
+        width: 30%;
+    }
+}

@@ -1,0 +1,16 @@
+
+.ourWorks
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.ourWorks h2
+{
+    margin-bottom: -3%;
+}
+
+.instalationContact p
+{ font-weight: bold;
+}

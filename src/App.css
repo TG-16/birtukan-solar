@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,80 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/*my style begins here*/
+
+:root
+{
+  --primary: #0057a0;
+  --secondary:#ff6a00;
+  --accent:#f4f4f4;
+  --white-background:white;
+  --white-text-color: ghostwhite;
+  --dark-text-color:#1a202c;
+
+  --standard-shadow: 0px 3px 6px #7c7b7b;
+  --standard-transition:all 0.4s;
+}
+
+.darkmode
+{
+  --primary: #0057a0;
+  --secondary:#ff6a00;
+  --accent:#f4f4f4;
+  --white-background:#1a202c;
+  --white-text-color: ghostwhite;
+  --dark-text-color:ghostwhite;
+}
+
+button
+{
+  background:var(--primary);
+  color: var(--white-text-color);
+  border: none;
+  border-radius: 7px;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+}
+
+button::after
+{
+  content: "";
+  position: absolute;
+  height: 100%;
+  top:0%;
+  left: 0%;
+  width: 0%;
+  border: none;
+  border-radius: 7px;
+  background-color: var(--secondary);
+  z-index: -1;
+  transition: 150ms ease-in-out;
+}
+
+button:hover::after
+{
+  width: 100%;
+  transition: 150ms ease-in-out;
+}
+
+button:hover
+{
+  cursor: pointer;
+  color: var(--dark--text--colot);
+}
+
+h2
+{
+  text-align: center;
+  color:var(--primary) ;
+}
+
+a
+{
+  color:var(--secondary);
+  font-weight: bold;
+  text-decoration: none;
 }
