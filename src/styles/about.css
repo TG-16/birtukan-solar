@@ -193,7 +193,7 @@
 
 /* last paragraph should be bold and secondary color*/
 
-@media (max-width:320px) {
+@media (max-width:325px) {
     .ourStory
     {
         flex-direction: column;

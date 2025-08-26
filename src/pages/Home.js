@@ -6,11 +6,11 @@ import Projects from "../components/Projects";
 import Why from "../components/Why";
 import Footer from "../components/Footer";
 import "../styles/home.css"
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 const Home = () => {
 
-    const navigator = useNavigate();
+    // const navigator = useNavigate();
     
     return(
         <div className="homeContainer">
@@ -90,7 +90,6 @@ const Home = () => {
                         detail={" From importing and supplying high-quality solar panels, batteries, and inverters to providing technical guidance and installation support, our work ensures that customers enjoy reliable and sustainable power. Every product we distribute is carefully selected to meet international standards and withstand Ethiopia’s diverse energy demands."} 
                     />
                 </div>
-                <button onClick={() => navigator("/installations")}>See All</button>
             </div>
 
             <div id="whyGb">
