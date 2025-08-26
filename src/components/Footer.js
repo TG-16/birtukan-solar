@@ -8,9 +8,9 @@ const Footer = () => {
     return (
         <div className="footerContainer">
             <div className="footerList">
-                <h2>GB-Solar</h2>
+                <h2>BY-Solar</h2>
                 <ul>
-                    <li>Gebeyaw Solar Shope</li>
+                    <li>Birtukan Solar Importer</li>
                 </ul>
             </div>
 

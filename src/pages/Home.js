@@ -33,19 +33,19 @@ const Home = () => {
             <div className="increaseGb">
                 <Increase 
                     imageAddress={"images/image.jpg"}
-                    heading={"solar products sold"}
-                    number={10000} 
+                    heading={"solar products imported & sold"}
+                    number={25000} 
                 />
 
                 <Increase 
                     imageAddress={"images/image.jpg"}
-                    heading={"homes powered by solar"}
-                    number={120000} 
+                    heading={"homes powered by Birtukan's solar"}
+                    number={280000} 
                 />
                 <Increase 
                     imageAddress={"images/image.jpg"}
                     heading={"weredas where Birtukan products are sold"}
-                    number={50} 
+                    number={60} 
                 />
             </div>
 
@@ -88,6 +88,22 @@ const Home = () => {
                         imageAddress={"images/demo3.jpg"}
                         heading={"At Birtukan Solar Importer, we specialize in delivering complete solar energy solutions tailored to the needs of hbomes, businesses, and community institutions."}
                         detail={" From importing and supplying high-quality solar panels, batteries, and inverters to providing technical guidance and installation support, our work ensures that customers enjoy reliable and sustainable power. Every product we distribute is carefully selected to meet international standards and withstand Ethiopia’s diverse energy demands."} 
+                    />
+                </div>
+
+                <div className="projectGb">
+                    <Projects
+                        projectId={"info1"}
+                        imageAddress={"images/demo4.jpg"}
+                        heading={" We take pride in working with a wide range of customers, including households seeking affordable solar home systems, businesses looking for reliable backup power, and community organizations in need of sustainable energy solutions."}
+                        detail={" Each project we deliver is guided by our commitment to quality, durability, and customer satisfaction. By combining modern solar technology with local expertise, we ensure that our clients receive systems that truly make a difference in their daily lives."} 
+                    />  
+
+                    <Projects
+                        projectId={"info2"}
+                        imageAddress={"images/demo5.jpg"}
+                        heading={"Beyond providing products, our projects focus on long-term impact. By introducing clean energy solutions, we help reduce carbon emissions, cut electricity costs, and improve energy access in rural and urban areas alike."}
+                        detail={" Our goal is not only to install solar systems but also to empower individuals and organizations with the knowledge and tools to embrace renewable energy. Every project we complete is a step forward in building a brighter, greener Ethiopia."} 
                     />
                 </div>
             </div>
