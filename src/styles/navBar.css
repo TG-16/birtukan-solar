@@ -87,7 +87,7 @@
     opacity: 0%;
 }
 
-@media (max-width:325px) {
+@media (max-width:376px) {
     .desktopNav ul
     {
         font-size: xx-small;

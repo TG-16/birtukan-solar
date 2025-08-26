@@ -111,7 +111,7 @@
     box-shadow: var(--standard-shadow);
 }
 
-@media (max-width:325px) {
+@media (max-width:376px) {
     #productsProductContainer .productGb div
     {
         background-color: var(--accent);    

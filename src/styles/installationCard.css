@@ -65,7 +65,7 @@
     width: 70%;
 }
 
-@media (max-width:325px) {
+@media (max-width:376px) {
     .installationContainer p
     {
         width: 100%;

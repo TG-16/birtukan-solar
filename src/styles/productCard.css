@@ -45,7 +45,7 @@
     transition: var(--standard-transition);
 }
 
-@media (max-width:325px)
+@media (max-width:376px)
 {
     .productCardContainer
     {
